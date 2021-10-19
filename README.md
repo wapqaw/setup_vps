@@ -26,3 +26,8 @@ https://blog.bodi.web.id/optimasi-mysql-database-pada-small-vps.html
 
 tuning mysql
 https://forum.vestacp.com/viewtopic.php?t=5456
+
+optimize apache
+https://www.mysterydata.com/how-to-improve-and-speed-up-the-performance-of-apache-in-vestacp/
+or read
+https://forum.vestacp.com/viewtopic.php?t=17584

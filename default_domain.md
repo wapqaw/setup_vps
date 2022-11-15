@@ -12,3 +12,12 @@
 systemctl disable firewalld<br/>
 service iptables stop<br/>
 /usr/local/vesta/bin/v-stop-firewall<br/>
+
+
+#centOS 7 comes with firewalld by default. So disable firewalld because VestaCP uses IPtables & with Fail2ban.
+systemctl stop firewalld.service<br/>
+systemctl disable firewalld.service<br/>
+systemctl mask firewalld.service<br/>
+systemctl status firewalld<br/>
+
+https://www.awsmonster.com/2019/04/vestacp-installation-perquisite-part-2.html

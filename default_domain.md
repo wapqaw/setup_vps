@@ -8,13 +8,13 @@
 
 
 #vps can't access after reboot The firewall has been disabled. If you restart the server it will come back on. Changed ports in Vesta.<br/>
-#stop firewall vestacp.
+#stop firewall vestacp.<br/>
 systemctl disable firewalld<br/>
 service iptables stop<br/>
 /usr/local/vesta/bin/v-stop-firewall<br/>
 
 
-#centOS 7 comes with firewalld by default. So disable firewalld because VestaCP uses IPtables & with Fail2ban.
+#centOS 7 comes with firewalld by default. So disable firewalld because VestaCP uses IPtables & with Fail2ban.<br/>
 systemctl stop firewalld.service<br/>
 systemctl disable firewalld.service<br/>
 systemctl mask firewalld.service<br/>
